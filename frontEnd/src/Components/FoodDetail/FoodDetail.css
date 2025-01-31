@@ -1,0 +1,103 @@
+.food-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fdf6e3;
+    padding: 32px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-content {
+    flex: 2;
+    margin-right: 32px;
+  }
+  
+  .main-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 24px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .category-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .category {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .time {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .food-image {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+  }
+  
+  .description {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 16px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .ingredients-list,
+  .steps-list {
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    list-style-type: disc;
+  }
+  
+  .sidebar {
+    flex: 1;
+  }
+  
+  .nutrition {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+  }
+  
+  .nutrition h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .nutrition ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nutrition ul li {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 8px;
+  }

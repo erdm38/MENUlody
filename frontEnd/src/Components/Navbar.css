@@ -1,0 +1,33 @@
+.navbar-profile {
+    position: relative;
+  }
+  
+  .nav-profile-dropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid #fe9e0d;
+    outline: 2px solid white;
+    list-style: none;
+  }
+  
+  .navbar-profile:hover .nav-profile-dropdown {
+    display: flex;
+  }
+  
+  .pp {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%; /* Optional: make it a circle */
+    object-fit: cover; /* Ensures the image is contained within the dimensions */
+    position: absolute; /* Position the profile picture absolutely */
+    top: -30px; /* Adjust this value to your needs */
+    right: -40px; /* Adjust this value to your needs */
+  }
+  
